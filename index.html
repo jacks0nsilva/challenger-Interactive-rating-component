@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="card-one">
+        <div class="star"><img src="images/icon-star.svg" alt=""></div>
+
+        <h1>How did we do?</h1>
+        <h2>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</h2>
+        <div class="choice">
+            <div class="options">
+                <input type="radio" name="opt" id="1" class="inputs" value="1">
+                <label for="1" class="opcoes">1</label>
+                <input type="radio" name="opt" id="2" class="inputs" value="2">
+                <label for="2" class="opcoes">2</label>
+                <input type="radio" name="opt" id="3" class="inputs" value="3">
+                <label for="3" class="opcoes">3</label>
+                <input type="radio" name="opt" id="4" class="inputs" value="4">
+                <label for="4" class="opcoes">4</label>
+                <input type="radio" name="opt" id="5" class="inputs" value="5">
+                <label for="5" class="opcoes">5</label>
+            </div>
+            <input type="button" value="SUBMIT" class="botao">
+        </div>
+    </div>
+
+    <div class="card-two disable-card">
+        <img src="images/illustration-thank-you.svg" alt="thank-you">
+        <div class="result-select ">
+            <p>You selected 4 out of 5</p>
+        </div>
+        <h1>Thank You!</h1>
+        <h2>We appreciated you taking the time to give a rating. If youe ver need more support, don't hesitate to get in touch!</h2>
+    </div>
+
+    <footer>
+        <p>
+            Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/jacks0nsilva" target="_blank">Jackson</a>.
+        </p>
+      </footer>
+</body>
+</html>

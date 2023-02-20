@@ -1,2 +1,1 @@
-# challenger Interactive rating component
- 
+Desafio simples para praticar HTML, CSS3 e JavaScript. 
