@@ -1,7 +1,7 @@
 let options = document.querySelectorAll('.opcoes')
 let button = document.querySelector('.botao')
-let cardOne = document.querySelector('.card-one')
-let cardTwo = document.querySelector('.card-two')
+let cardOne = document.querySelector('.quiz-card')
+let cardTwo = document.querySelector('.solution-card')
 let inputs = document.querySelectorAll('.inputs')
 let result = document.querySelector('.result-select p')
 
